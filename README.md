@@ -38,7 +38,7 @@ media-website/
 
 ### Network Identity
 - **Name**: Bikini Bottom Broadcasting Center (BBBC)
-- **Slogan**: "Bringing Truth to the Surface"
+- **Slogan**: "The most trustworthy source under the sea."
 - **Colors**: Dark blues and reds (easily customizable in CSS)
 - **Logo**: Placeholder ready for your custom design
 
@@ -239,4 +239,4 @@ Tested and working on:
 
 **Good luck with your Campaign Trail media project!** 🎬📰
 
-*Remember: "Bringing Truth to the Surface"*
+*Remember: "The most trustworthy source under the sea."*

@@ -40,15 +40,14 @@ body {
     color: var(--text-light);
     padding: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    transition: all var(--transition-speed) ease;
+    position: relative;
 }
 
 .logo-section {
-    text-align: center;
-    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
     animation: fadeInDown 0.8s ease;
     display: flex;
     flex-direction: column;
@@ -66,8 +65,18 @@ body {
     filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.18));
 }
 
+.logo-text {
+    text-align: left;
+}
+
+.network-logo {
+    width: 96px;
+    height: auto;
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.18));
+}
+
 .network-name {
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-weight: 800;
     letter-spacing: 4px;
     margin-bottom: 5px;
@@ -79,17 +88,17 @@ body {
 }
 
 .network-tagline {
-    font-size: 1.2rem;
-    font-weight: 300;
-    letter-spacing: 2px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 1px;
     opacity: 0.9;
 }
 
 .network-slogan {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-style: italic;
-    opacity: 0.7;
-    margin-top: 5px;
+    opacity: 0.75;
+    margin-top: 4px;
 }
 
 .main-nav {
@@ -594,14 +603,15 @@ body {
 
 .bar-graph {
     display: grid;
-    gap: 12px;
+    gap: 14px;
 }
 
 .bar-graph__row {
     display: grid;
-    grid-template-columns: 1fr 2fr auto;
+    grid-template-columns: minmax(200px, 1.2fr) minmax(320px, 2fr) minmax(80px, 0.9fr);
     align-items: center;
-    gap: 10px;
+    gap: 16px;
+    justify-content: center;
 }
 
 .bar-graph__label {
@@ -628,6 +638,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.3px;
     transition: width var(--transition-speed) ease;
+    animation: growBar 0.9s ease;
 }
 
 .bar-value {
@@ -654,6 +665,16 @@ body {
 
 .bar-fill.krabby {
     background: linear-gradient(90deg, #5dade2, #2874a6);
+}
+
+@keyframes growBar {
+    from {
+        width: 0;
+        opacity: 0.6;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* ===========================
