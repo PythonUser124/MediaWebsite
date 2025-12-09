@@ -1,4 +1,4 @@
-# Bikini Bottom News Network (BBNN) Website
+# Bikini Bottom Broadcasting Center (BBBC) Website
 
 ## Overview
 This is a professional news network website for your Campaign Trail media project. The website features a sleek, modern design with rectangular elements (no circles/bubbles), smooth transitions, and all the required components for your media group assignment.
@@ -37,7 +37,7 @@ media-website/
 ## ✅ Required Components (All Included)
 
 ### Network Identity
-- **Name**: Bikini Bottom News Network (BBNN)
+- **Name**: Bikini Bottom Broadcasting Center (BBBC)
 - **Slogan**: "Bringing Truth to the Surface"
 - **Colors**: Dark blues and reds (easily customizable in CSS)
 - **Logo**: Placeholder ready for your custom design

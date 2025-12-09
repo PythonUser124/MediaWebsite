@@ -72,7 +72,7 @@ A complete, professional news website with all required components for your Camp
 ```html
 <h3 class="personality-name">Squidward Tentacles</h3>
 <p class="personality-bio">
-    Squidward brings his distinctive voice and sophisticated perspective to BBNN's anchor desk. Known for his refined taste and no-nonsense approach to journalism, he cuts through campaign spin to deliver the facts viewers need.
+    Squidward brings his distinctive voice and sophisticated perspective to BBBC's anchor desk. Known for his refined taste and no-nonsense approach to journalism, he cuts through campaign spin to deliver the facts viewers need.
 </p>
 ```
 
