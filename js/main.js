@@ -1,4 +1,4 @@
-// Bikini Bottom News Network - Main JavaScript
+// Bikini Bottom Broadcasting Center - Main JavaScript
 // Professional interactions and smooth animations
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Console message
     console.log('🎬 Bikini Bottom News Network - Website Loaded');
-    console.log('📰 Bringing Truth to the Surface');
+    console.log('📰 The most trustworthy source under the sea.');
 });
 
 // Utility function for smooth animations

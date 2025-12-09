@@ -1,4 +1,4 @@
-# Bikini Bottom News Network (BBNN) Website
+# Bikini Bottom Broadcasting Center (BBBC) Website
 
 ## Overview
 This is a professional news network website for your Campaign Trail media project. The website features a sleek, modern design with rectangular elements (no circles/bubbles), smooth transitions, and all the required components for your media group assignment.
@@ -6,7 +6,7 @@ This is a professional news network website for your Campaign Trail media projec
 ## 🎨 Design Features
 - **Sleek rectangular design** - No circular elements, using straight edges throughout
 - **Professional transitions** - Smooth hover effects and animations
-- **Color scheme** - Professional news network colors (dark blues, reds for accents)
+- **Color scheme** - Green-forward news palette with bright accents
 - **Responsive layout** - Works on desktop, tablet, and mobile devices
 - **Modern typography** - Clean, readable fonts appropriate for news
 
@@ -28,7 +28,6 @@ media-website/
 │   ├── investigation.html      # Investigative report
 │   ├── breaking.html           # Breaking news story
 │   ├── profile.html            # Candidate profile
-│   ├── events.html             # Campaign events coverage
 │   ├── pundit.html             # Pundit commentary/op-ed
 │   └── human-interest.html     # Human interest feature
 └── images/                # Place your images here
@@ -37,8 +36,8 @@ media-website/
 ## ✅ Required Components (All Included)
 
 ### Network Identity
-- **Name**: Bikini Bottom News Network (BBNN)
-- **Slogan**: "Bringing Truth to the Surface"
+- **Name**: Bikini Bottom Broadcasting Center (BBBC)
+- **Slogan**: "The most trustworthy source under the sea."
 - **Colors**: Dark blues and reds (easily customizable in CSS)
 - **Logo**: Placeholder ready for your custom design
 
@@ -56,9 +55,8 @@ All article pages are complete with detailed instructions:
 3. ✅ **Investigative Report** - Watchdog journalism template
 4. ✅ **Breaking News** - Breaking story format
 5. ✅ **Candidate Profile** - In-depth profile template
-6. ✅ **Campaign Events** - Event coverage template
-7. ✅ **Pundit Commentary** - Op-ed and panel discussion formats
-8. ✅ **Human Interest** - Feature story template
+6. ✅ **Pundit Commentary** - Op-ed and panel discussion formats
+7. ✅ **Human Interest** - Feature story template
 
 ## 🎯 How to Customize Your Website
 
@@ -105,13 +103,14 @@ Each article file has detailed instructions. Simply:
 - Add quotes, analysis, and photos
 
 ### 6. Add Advertisements
-**index.html** - Three ad placeholders ready:
+**index.html** now includes three sample ad placements that pull from `images/ads/`:
 ```html
-<div class="ad-placeholder">
-    <p>Advertisement Space 1</p>
-</div>
+<figure class="ad-card">
+    <img src="images/ads/ad-1.svg" alt="Premium placement advertisement" class="ad-image">
+    <figcaption class="ad-caption">Prime slot now featuring your creatives.</figcaption>
+</figure>
 ```
-Replace with your actual advertisement images or content.
+Swap the sample SVGs with your own assets to feature campaign or sponsor creatives.
 
 ### 7. Add Images
 - Create an `images/` folder if you haven't already
@@ -124,10 +123,10 @@ Edit `css/style.css` at the top to change colors:
 
 ```css
 :root {
-    --primary-color: #1a1a2e;      /* Dark blue */
-    --secondary-color: #16213e;     /* Darker blue */
-    --accent-color: #0f3460;        /* Medium blue */
-    --highlight-color: #e94560;     /* Red accent */
+    --primary-color: #0b4f2f;      /* Forest green */
+    --secondary-color: #0c7a45;    /* Emerald */
+    --accent-color: #11a85c;       /* Bright green */
+    --highlight-color: #c0ff8c;    /* Light lime accent */
     /* Change these to match your brand */
 }
 ```
@@ -182,7 +181,7 @@ The website includes:
 
 - [ ] Network identity completed (name, slogan, team bios)
 - [ ] Broadcast video uploaded and embedded
-- [ ] All 8 article templates filled out with content
+- [ ] All 7 article templates filled out with content
 - [ ] Polling data and visualizations added
 - [ ] 3 social media posts designed and uploaded
 - [ ] Advertisement sections filled
@@ -203,7 +202,6 @@ This website fulfills all project requirements:
 6. ✅ Nightly news components:
    - ✅ Polling data
    - ✅ Interview
-   - ✅ Campaign events coverage
    - ✅ Pundit commentary
    - ✅ Investigative report
    - ✅ Candidate profile
@@ -239,4 +237,4 @@ Tested and working on:
 
 **Good luck with your Campaign Trail media project!** 🎬📰
 
-*Remember: "Bringing Truth to the Surface"*
+*Remember: "The most trustworthy source under the sea."*

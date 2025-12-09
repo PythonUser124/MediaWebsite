@@ -36,7 +36,6 @@ A complete, professional news website with all required components for your Camp
 - [ ] `articles/interview.html` - After conducting candidate interview
 - [ ] `articles/investigation.html` - Your investigative report
 - [ ] `articles/profile.html` - The candidate you didn't interview
-- [ ] `articles/events.html` - Campaign events you cover
 
 ### Priority 3 - Additional Content
 - [ ] `articles/breaking.html` - Breaking news story
@@ -72,7 +71,7 @@ A complete, professional news website with all required components for your Camp
 ```html
 <h3 class="personality-name">Squidward Tentacles</h3>
 <p class="personality-bio">
-    Squidward brings his distinctive voice and sophisticated perspective to BBNN's anchor desk. Known for his refined taste and no-nonsense approach to journalism, he cuts through campaign spin to deliver the facts viewers need.
+    Squidward brings his distinctive voice and sophisticated perspective to BBBC's anchor desk. Known for his refined taste and no-nonsense approach to journalism, he cuts through campaign spin to deliver the facts viewers need.
 </p>
 ```
 
@@ -117,7 +116,7 @@ A complete, professional news website with all required components for your Camp
 1. **Person 1**: Network identity, personalities page, about page
 2. **Person 2**: Press conference coverage, interview article
 3. **Person 3**: Investigative report, breaking news
-4. **Person 4**: Campaign events, profile, human interest
+4. **Person 4**: Profile, human interest
 5. **Person 5**: Pundit commentary, polling data, social media
 6. **Everyone**: Final review and video production
 
@@ -126,7 +125,7 @@ A complete, professional news website with all required components for your Camp
 - [ ] All placeholder text `[like this]` has been replaced
 - [ ] Team member names and bios added
 - [ ] Broadcast video uploaded and working
-- [ ] All 8 articles completed
+- [ ] All 7 articles completed
 - [ ] Polling data added with visualizations
 - [ ] 3 social media posts created
 - [ ] Advertisements added
