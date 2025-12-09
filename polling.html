@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polling Data - Bikini Bottom News Network</title>
+    <title>Polling Data - Bikini Bottom Broadcasting Center</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="main-header">
         <div class="container">
             <div class="logo-section">
-                <h1 class="network-name">BBNN</h1>
-                <p class="network-tagline">Bikini Bottom News Network</p>
-                <p class="network-slogan">Bringing Truth to the Surface</p>
+                <div class="logo-text">
+                    <h1 class="network-name">BBBC</h1>
+                    <p class="network-tagline">Bikini Bottom Broadcasting Center</p>
+                    <p class="network-slogan">The most trustworthy source under the sea.</p>
+                </div>
             </div>
             <nav class="main-nav">
                 <ul>
@@ -39,63 +41,212 @@
                 <div class="article-content">
                     <h2>Current Poll Results</h2>
                     <div class="polling-section">
-                        <div class="poll-placeholder">
-                            <p style="font-size: 1.3rem; font-weight: 600; margin-bottom: 15px;">
-                                Poll Results Will Be Displayed Here
-                            </p>
-                            <p style="color: #666; font-style: italic;">
-                                Add your polling data, charts, and visualizations to this section
-                            </p>
+                        <div class="poll-board">
+                            <article class="poll-card">
+                                <div>
+                                    <p class="poll-card__title">Head-to-Head Matchup</p>
+                                    <p class="poll-card__note">One clear front-runner emerges.</p>
+                                </div>
+                                <div class="bar-stack">
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">SpongeBob &amp; Patrick</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill patty" style="width: 83.9%;">
+                                                <span class="bar-value">83.9%</span>
+                                            </div>
+                                        </div>
+                                        <div class="bar-row__meta">Lead: +67.8 pts</div>
+                                    </div>
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">Mr. Krabs &amp; Sandy</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill krabby" style="width: 16.1%;">
+                                                <span class="bar-value">16.1%</span>
+                                            </div>
+                                        </div>
+                                        <div class="bar-row__meta">Trail: –</div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="poll-card">
+                                <div>
+                                    <p class="poll-card__title">Leadership Qualities</p>
+                                    <p class="poll-card__note">Personality continues to sway voters.</p>
+                                </div>
+                                <div class="bar-stack">
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">Childish but kind (SpongeBob)</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill patty" style="width: 74.2%;">
+                                                <span class="bar-value">74.2%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">Smart but money-focused (Mr. Krabs)</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill krabby" style="width: 25.8%;">
+                                                <span class="bar-value">25.8%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">Slow but loyal (Patrick)</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill patty" style="width: 80.6%;">
+                                                <span class="bar-value">80.6%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">Inventive but short-tempered (Sandy)</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill krabby" style="width: 19.4%;">
+                                                <span class="bar-value">19.4%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="poll-card">
+                                <div>
+                                    <p class="poll-card__title">Key Domestic Issues</p>
+                                    <p class="poll-card__note">Health and safety shape the field.</p>
+                                </div>
+                                <div class="bar-stack">
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">Background checks &amp; licensing</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill patty" style="width: 89.7%;">
+                                                <span class="bar-value">89.7%</span>
+                                            </div>
+                                        </div>
+                                        <div class="bar-row__meta">Most popular</div>
+                                    </div>
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">Government-funded healthcare</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill patty" style="width: 83.3%;">
+                                                <span class="bar-value">83.3%</span>
+                                            </div>
+                                        </div>
+                                        <div class="bar-row__meta">+72.2 pts over opt-out</div>
+                                    </div>
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">Mental health investments</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill patty" style="width: 84.6%;">
+                                                <span class="bar-value">84.6%</span>
+                                            </div>
+                                        </div>
+                                        <div class="bar-row__meta">+69.2 pts vs. decriminalize</div>
+                                    </div>
+                                </div>
+                                <ul class="chart-footnotes">
+                                    <li>Only 11.1% backed individual-only healthcare plans.</li>
+                                    <li>Decriminalizing minor offenses drew 15.4% support.</li>
+                                </ul>
+                            </article>
+
+                            <article class="poll-card">
+                                <div>
+                                    <p class="poll-card__title">Global &amp; Civic Priorities</p>
+                                    <p class="poll-card__note">Immigration and climate stand out.</p>
+                                </div>
+                                <div class="bar-stack">
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">Ease citizenship &amp; support ICE victims</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill krabby" style="width: 71.4%;">
+                                                <span class="bar-value">71.4%</span>
+                                            </div>
+                                        </div>
+                                        <div class="bar-row__meta">Krabby lead</div>
+                                    </div>
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">Protect abortion access (to viability)</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill patty" style="width: 87.1%;">
+                                                <span class="bar-value">87.1%</span>
+                                            </div>
+                                        </div>
+                                        <div class="bar-row__meta">Broad consensus</div>
+                                    </div>
+                                    <div class="bar-row">
+                                        <div class="bar-row__label">Rejoin Paris Agreement</div>
+                                        <div class="bar-track">
+                                            <div class="bar-fill neutral" style="width: 100%;">
+                                                <span class="bar-value">Top choice</span>
+                                            </div>
+                                        </div>
+                                        <div class="bar-row__meta">Environment</div>
+                                    </div>
+                                </div>
+                                <ul class="chart-footnotes">
+                                    <li>Paris Agreement was the leading environmental option offered.</li>
+                                    <li>Abortion access faced opposition from only four respondents.</li>
+                                </ul>
+                            </article>
                         </div>
                     </div>
 
                     <h2>Poll Methodology</h2>
                     <div class="polling-section">
-                        <p><strong>Number of Respondents:</strong> [Add number here]</p>
-                        <p><strong>Polling Period:</strong> [Add dates here]</p>
-                        <p><strong>Method:</strong> [Describe how you conducted the poll]</p>
-                        <p><strong>Margin of Error:</strong> [Add margin of error]</p>
+                        <p><strong>Number of Respondents:</strong> 31</p>
+                        <p><strong>Polling Period:</strong> November 27 – December 4, 2025 (reported at 2:05 p.m. on Dec. 4)</p>
+                        <p><strong>Method:</strong> Online survey distributed to high school voters via Google Forms; responses collected anonymously.</p>
+                        <p><strong>Margin of Error:</strong> ±17.6% at 95% confidence, given sample size.</p>
                     </div>
 
                     <h2>Polling Questions</h2>
                     <div class="polling-section">
-                        <p>Add your polling questions here. For example:</p>
+                        <p>Core prompts asked in the survey:</p>
                         <ul>
-                            <li>Which candidate would you vote for if the election were held today?</li>
-                            <li>What issues matter most to you in this election?</li>
-                            <li>How do you rate each candidate's performance on key issues?</li>
-                            <li>Do you have a favorable or unfavorable view of each candidate?</li>
+                            <li>Which ticket would you choose for president and vice president if the election were today?</li>
+                            <li>Which leadership qualities resonate more with you for president and for vice president?</li>
+                            <li>Which economic approach do you favor: big-business incentives or expanded social welfare with lower tariffs?</li>
+                            <li>Which gun policy do you support: eliminating controls or adding background checks, a do-not-sell list, and special licensing?</li>
+                            <li>Should healthcare be government-funded for all or purchased individually without employer requirements?</li>
+                            <li>Where do you stand on abortion access: removing barriers entirely or protecting access up to fetal viability?</li>
+                            <li>What education priorities matter most: career-focused K–12 and subsidized higher ed or family-directed, competitive schooling?</li>
+                            <li>Which environmental action should come first: rejoining the Paris Agreement, emissions limits, or tax incentives for sustainable business?</li>
+                            <li>How should we reform criminal justice: mental health investment and alternative sentencing or traditional incarceration approaches?</li>
+                            <li>Which immigration policy do you favor: easing citizenship and supporting ICE victims or stricter removals for undocumented criminals?</li>
+                            <li>What response to nuclear testing do you support: medical aid and environmental restoration or allowing natural recovery without new bans?</li>
                         </ul>
                     </div>
 
                     <h2>Candidate Responses to Poll Results</h2>
                     <div class="polling-section">
                         <h3>Patty Party Response</h3>
-                        <p>[Add quote or reaction from SpongeBob/Patrick campaign]</p>
+                        <p>
+                            A Patty Party spokesperson celebrated SpongeBob and Patrick capturing 85.2% of the vote, noting the ticket’s
+                            kindness-first platform. When asked about the weak showing for decriminalizing minor offenses (15.4%), the
+                            campaign said they will emphasize safeguards and pair diversion with the widely supported expansion of mental
+                            health resources (84.6%) to reassure safety-minded voters.
+                        </p>
 
                         <h3>Krabby Party Response</h3>
-                        <p>[Add quote or reaction from Mr. Krabs/Sandy campaign]</p>
+                        <p>
+                            The Krabby Party acknowledged trailing with 14.8% support and recognized that their individual-purchase healthcare
+                            plan drew only 11.1% approval. They signaled openness to blending employer incentives and cost caps while keeping
+                            market choice, aiming to regain voters who favored the Patty Party’s government-funded approach (81.5%).
+                        </p>
                     </div>
 
                     <h2>Analysis</h2>
                     <div class="article-content">
                         <p>
-                            [Add your analysis of what the polling data reveals about the state of the race.
-                            What trends do you see? What do voters care about most? How are the candidates performing?]
+                            SpongeBob and Patrick hold a commanding lead fueled by personal likability and policies tied to government-backed
+                            support (healthcare, social welfare, and environmental commitments). Voters favor regulation and safety over
+                            laissez-faire approaches on guns, healthcare, and nuclear issues. Economic and immigration preferences show some
+                            appetite for the Krabby ticket’s pro-business and streamlined citizenship ideas, suggesting room for movement if
+                            the campaign pivots toward affordability and collaboration. The biggest red flags for each side are the Patty
+                            Party’s decriminalization plank and the Krabby Party’s healthcare stance—areas where nuance and compromise could
+                            meaningfully shift future tracking polls.
                         </p>
-                    </div>
-
-                    <h2>Visual Data</h2>
-                    <div class="polling-section">
-                        <div class="poll-placeholder">
-                            <p style="font-size: 1.2rem; font-weight: 600; margin-bottom: 15px;">
-                                Charts and Graphs
-                            </p>
-                            <p style="color: #666; font-style: italic;">
-                                Add bar charts, pie charts, or other visualizations of your polling data here.<br>
-                                Use tools like Google Charts, Excel, or Canva to create professional graphics.
-                            </p>
-                        </div>
                     </div>
 
                     <a href="index.html" class="back-link">← Back to Home</a>
@@ -108,7 +259,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Bikini Bottom News Network</h3>
+                    <h3>Bikini Bottom Broadcasting Center</h3>
                     <p>Your trusted source for campaign coverage</p>
                 </div>
                 <div class="footer-section">
@@ -125,7 +276,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Bikini Bottom News Network. All rights reserved.</p>
+                <p>&copy; 2025 Bikini Bottom Broadcasting Center. All rights reserved.</p>
             </div>
         </div>
     </footer>
