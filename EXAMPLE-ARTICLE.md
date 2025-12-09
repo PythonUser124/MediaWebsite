@@ -17,7 +17,7 @@ This document shows you exactly what a completed article looks like.
 
 <h2>Interview Transcript</h2>
 <p>
-    <strong>BBNN:</strong> [Question 1]
+    <strong>BBBC:</strong> [Question 1]
 </p>
 <p>
     <strong>[Candidate Name]:</strong> [Answer 1]
@@ -43,7 +43,7 @@ This document shows you exactly what a completed article looks like.
 
 <h2>Interview Transcript</h2>
 <p>
-    <strong>BBNN:</strong> Thank you for sitting down with us today, SpongeBob.
+    <strong>BBBC:</strong> Thank you for sitting down with us today, SpongeBob.
     Let's start with something voters want to know: Why are you running for president?
 </p>
 <p>
@@ -56,7 +56,7 @@ This document shows you exactly what a completed article looks like.
 </p>
 
 <p>
-    <strong>BBNN:</strong> Your opponent, Mr. Krabs, argues that his business experience
+    <strong>BBBC:</strong> Your opponent, Mr. Krabs, argues that his business experience
     makes him better qualified to manage the economy. How do you respond?
 </p>
 <p>
@@ -79,7 +79,7 @@ This document shows you exactly what a completed article looks like.
 
 ### Good Investigative Report Opening
 ```
-BBNN Investigation reveals that presidential candidate Mr. Krabs has a troubling
+BBBC Investigation reveals that presidential candidate Mr. Krabs has a troubling
 history of workplace violations. Documents obtained by our investigative team show
 that the Krusty Krab has been cited 47 times by the health department over the past
 decade for various code violations. While the candidate touts his business acumen,
