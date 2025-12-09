@@ -49,6 +49,20 @@ body {
     gap: 16px;
     margin-bottom: 12px;
     animation: fadeInDown 0.8s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text {
+    text-align: center;
+}
+
+.network-logo {
+    width: 96px;
+    height: auto;
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.18));
 }
 
 .logo-text {
