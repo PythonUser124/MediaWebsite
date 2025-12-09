@@ -56,10 +56,34 @@ body {
     margin-bottom: 12px;
     animation: fadeInDown 0.8s ease;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .logo-text {
     text-align: center;
+}
+
+.network-logo {
+    width: 96px;
+    height: auto;
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.18));
+}
+
+.logo-text {
+    text-align: left;
+}
+
+.network-logo {
+    width: 96px;
+    height: auto;
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.18));
+}
+
+.logo-text {
+    text-align: left;
 }
 
 .network-logo {
@@ -598,6 +622,7 @@ body {
 .bar-graph {
     display: grid;
     gap: 18px;
+    gap: 14px;
 }
 
 .bar-graph__row {
@@ -606,6 +631,10 @@ body {
     align-items: center;
     gap: 18px;
     justify-items: stretch;
+    grid-template-columns: minmax(200px, 1.2fr) minmax(320px, 2fr) minmax(80px, 0.9fr);
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
 }
 
 .bar-graph__label {
@@ -618,6 +647,11 @@ body {
 .bar-graph__track {
     background: rgba(26, 26, 46, 0.04);
     border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.bar-graph__track {
+    background: var(--gray-light);
+    border: 1px solid var(--gray-medium);
     border-radius: 8px;
     overflow: hidden;
     position: relative;
@@ -648,6 +682,7 @@ body {
     color: var(--secondary-color);
     text-align: left;
     width: 100%;
+    text-align: right;
 }
 
 .chart-footnotes {

@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">BBBC logo</title>
+  <desc id="desc">A purple scallop shell with white BBBC lettering for the Bikini Bottom Broadcasting Center.</desc>
+  <defs>
+    <linearGradient id="shellGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d7c1ff" />
+      <stop offset="50%" stop-color="#b68ce6" />
+      <stop offset="100%" stop-color="#9b6fd1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1a1a2e" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path fill="url(#shellGradient)" stroke="#7b56b4" stroke-width="12" stroke-linejoin="round" d="M256 68c-20 0-58 26-80 44s-54 42-76 68c-22 26-34 58-26 94 8 36 30 70 60 94s70 42 122 42 92-18 122-42 52-58 60-94c8-36-4-68-26-94-22-26-54-50-76-68s-60-44-80-44z"/>
+    <path fill="#c6a8f2" d="M256 92c-15 0-46 21-64 36s-44 35-62 56c-18 21-28 48-21 78 7 30 26 59 52 78s60 35 95 35 69-16 95-35 45-48 52-78c7-30-3-57-21-78-18-21-44-41-62-56s-49-36-64-36z" opacity="0.5"/>
+  </g>
+  <text x="256" y="290" font-family="'Arial Black', 'Inter', system-ui, sans-serif" font-size="132" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4" stroke="#1a1a2e" stroke-width="6" paint-order="stroke fill">
+    BBBC
+  </text>
+</svg>
